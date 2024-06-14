@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+.card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.card-title {
+    color: #17a2b8;
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+#img{
+ background-position:buttom;
+}
+
+       #roadmap .container {
+            background-color: #121212;
+             max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            
+        }
+        #roadmap h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+       #roadmap ul {
+       
+            list-style: none;
+            padding: 0;
+        }
+      #roadmap li {
+            background-color: #090908;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #roadmap button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .progress{
+         margin:10px;
+         height:20px;
+        }
+       
+
+        .typing-container {
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        font-weight:500;
+        
+    }
+
+    
+.typing-line p{
+ color: orange;
+ font-size: 30px;
+}
+  .badge {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #4CAF50;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .badge svg {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+      fill: white; /* Set SVG fill color to white */
+    }
+    h2 {
+      margin: 0;
+    }
+  
+    footer {
+      background-color: #444;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer .social-icons a {
+      margin: 0 10px;
+      color: #ffffff; /* icon color */
+      font-size: 24px; /* icon size */
+    }
+    footer p {
+      margin-top: 10px;
+    }
+  

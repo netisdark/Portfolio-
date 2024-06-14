@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Daniellepcha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <img src="img1.png" class="rounded-circle" id="img" alt="Your Photo" width="200">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+          <div class="typing-container">
+       <div id="line" class="typing-line">
+    I'm 
+    <p id="one"></p>
+    <p id="two"></p>
+    <p id="three"></p>
+    <p id="four"></p>
+</div>
+</div>
+         <a href="your-cv.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+    </header>
+
+    <section id="about" class="container text-center my-5">
+        <h2>About Me</h2>
+        <p>
+
+---
+<br>
+
+Hello, I'm Daniel Lepcha, an 18-year-old science student from Nepal. I come from a remote village and have a passion for playing chess, coding, and music. Exploring general knowledge is one of my favorite pastimes. In school, I'm currently in class 12, pursuing my education with the goal of understanding the world around me better. My aspirations include not only earning money but also living a life that reflects my faith. Welcome to my corner of the internet, where I share my journey of learning and growth!
+</br>
+---
+
+</p>
+         <div class="container">
+        <h3 class="text-center mb-4">Learning Progress</h3>
+        
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">AI Tools</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 25%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PHP</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Python</div>
+        </div>
+        
+    </div>
+    
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <div class="container mt-4">
+    <div class="row">
+      <!-- Quiz Project -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://netisdark.github.io/Portfolio-/quiz.png" class="card-img-top" alt="Quiz Project">
+          <div class="card-body">
+            <h5 class="card-title">Quiz Project</h5>
+            <p class="card-text">A quiz project that is 100% complete.</p>
+            <a href="https://netisdark.github.io/Quiz1/" class="btn btn-primary" target="_blank">View Project</a>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100% Complete</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Baghchal Project -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://netisdark.github.io/Portfolio-/baghchal.jpg" class="card-img-top" alt="Baghchal Project">
+          <div class="card-body">
+            <h5 class="card-title">Baghchal Project</h5>
+            <p class="card-text">A project that is 75% complete.</p>
+            <a href="https://netisdark.github.io/baghchal1/" class="btn btn-primary" target="_blank">View Project</a>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75% Complete</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    </section>
+    <section id="roadmap" class="container text-center my-5">
+     <h2>My Roadmap</h2>
+     <div class="container">
+        <h1>Week <span id="week-number">1</span></h1>
+        <ul id="task-list" class="list-group">
+            <!-- Tasks will be inserted here dynamically -->
+        </ul>
+        <div class="navigation">
+            <button class="btn btn-primary mr-2" onclick="previousWeek()">Previous</button>
+            <button class="btn btn-primary" onclick="nextWeek()">Next</button>
+        </div>
+    </div>
+    
+    </section>
+
+    <section id="goals" class="container text-center my-5">
+        <h2>My Goals</h2>
+       <div class="container mt-4">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1653201536741-966d9765807e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMGNoZW1pc3RyeXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Chemistry Image">
+      <div class="card-body">
+        <h5 class="card-title">Chemistry Online Platform</h5>
+        <p class="card-text">Explore this platform where you can perform chemistry experiments online with infinite possibilities.</p>
+        <a href="https://images.app.goo.gl/ZL7TrzrPCF2ihbWG7" class="btn btn-primary" target="_blank">Visit Platform</a>
+        <div class="mt-3">
+          <h6>Completion Progress</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    </section>
+
+    <section id="contact" class="container text-center my-5">
+        <h2>Contact Me</h2>
+        <p>Email: pergap3@gmail.com</p>
+    </section>
+      <div class="container">
+        <img src="logo1.png" alt="Haha" class="img-fluid">
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Daniellepcha.</p>
+        <nav class="social-icons">
+      <a href="https://www.facebook.com/daniel8899999998"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/DanielLepc19013"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com/@EyesOnYou-.-?si=ZL0NTp-QVEc-TrWA"><i class="fab fa-youtube"></i></a>
+      <a href="https://github.com/netisdark/"><i class="fab fa-github"></i></a>
+    </nav>
+    <p>© All Rights Reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
