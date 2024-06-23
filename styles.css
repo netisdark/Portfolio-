@@ -147,3 +147,33 @@ body {
       margin-top: 10px;
     }
   
+    .contact-form {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  .contact-form input,
+  .contact-form textarea {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: #ffffff;
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+      color: #cccccc;
+  }
+  .contact-form button {
+      background: #1e3c72;
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+  }
+  .contact-form button:hover {
+      background: #0d1b34;
+  }
